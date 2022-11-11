@@ -22,7 +22,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
             let layout = UICollectionViewFlowLayout()
             window.rootViewController = ViewController(collectionViewLayout: layout) // ViewController.swift
             
-            self.window = window
+            self.window = window // why?
             window.makeKeyAndVisible()
         }
         
